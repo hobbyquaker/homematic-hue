@@ -2,6 +2,8 @@
 
 Control Philips Hue Lights with the HomeMatic CCU
 
+Needs cURL on the CCU
+
 ## License
 
 Copyright (c) 2013 hobbyquaker https://github.com/hobbyquaker
