@@ -8,7 +8,7 @@ Needs cURL on the CCU
 
 ### state.tcl
 
-Example:
+Example:  
     state.tcl 172.16.23.151 3 true 255 0 30000 30
 
 #### Arguments
@@ -23,9 +23,8 @@ Example:
 
 ### alert.tcl
 
-Example:
-
-   alert.tcl 172.16.23.151 3
+Example:  
+    alert.tcl 172.16.23.151 3
 
 #### Arguments
 
