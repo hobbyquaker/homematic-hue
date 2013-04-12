@@ -2,6 +2,8 @@
 
 Control Philips Hue Lights with the HomeMatic CCU
 
+Simple Wrapper Scripts around cURL calls to the Hue API
+
 Needs cURL
 
 ## Documentation
@@ -12,7 +14,9 @@ You have to setup your Hue Bridge IP and API Username in here
 
 ### hue.tcl
 
-Example:
+Set lamp state with hue value
+
+#### Example:
      hue.tcl 3 true 255 0 30000 30
 
 #### Arguments
@@ -24,17 +28,11 @@ Example:
 * Hue - 0-65535 0=red, 25500=green, 46920=blue
 * Transition-Time in 1/10s
 
-### alert.tcl
-
-Example:
-     alert.tcl 3 select
-
-* Number of the Lamp
-* select/lselect/none - "select" does a single alarm, "lselect" does multiple alarms for max 30s, "none" cancels lselect
-
 ### ct.tcl
 
-Example:
+Set lamp state with color temperature value
+
+#### Example:
      ct.tcl 3 true 255 0 30000 30
 
 #### Arguments
@@ -46,10 +44,16 @@ Example:
 * Color Temperature - from 153 (6500K) to 500 (2000K)
 * Transition-Time in 1/10s
 
-#### Arguments
 
-* IP Address of the Hue Bridge
+### alert.tcl
+
+Starts and stops alarm
+
+#### Example:
+     alert.tcl 3 select
+
 * Number of the Lamp
+* select/lselect/none - "select" does a single alarm, "lselect" does multiple alarms for max 30s, "none" cancels lselect
 
 
 ## License
