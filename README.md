@@ -30,7 +30,7 @@ Example:
      alert.tcl 3 select
 
 * Number of the Lamp
-* select/lselect/none
+* select/lselect/none - "select" does a single alarm, "lselect" does multiple alarms for max 30s, "none" cancels lselect
 
 ### ct.tcl
 
