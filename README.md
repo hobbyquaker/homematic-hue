@@ -2,30 +2,49 @@
 
 Control Philips Hue Lights with the HomeMatic CCU
 
-Needs cURL on the CCU
+Needs cURL
 
 ## Documentation
 
-### state.tcl
+### config.tcl
+
+You have to setup your Hue Bridge IP and API Username in here
+
+### hue.tcl
 
 Example:
-    state.tcl 172.16.23.151 3 true 255 0 30000 30
+     hue.tcl 3 true 255 0 30000 30
 
 #### Arguments
 
-* IP Address of the Hue Bridge
 * Number of the Lamp
 * true/false (on/off)
 * Brightness
 * Saturation
-* Hue
+* Hue - 0-65535 0=red, 25500=green, 46920=blue
 * Transition-Time in 1/10s
 
 ### alert.tcl
 
 Example:
+     alert.tcl 3 select
 
-   alert.tcl 172.16.23.151 3
+* Number of the Lamp
+* select/lselect/none
+
+### ct.tcl
+
+Example:
+     ct.tcl 3 true 255 0 30000 30
+
+#### Arguments
+
+* Number of the Lamp
+* Lamp on/off - true/false
+* Brightness - 0-255
+* Saturation - 0-255
+* Color Temperature - from 153 (6500K) to 500 (2000K)
+* Transition-Time in 1/10s
 
 #### Arguments
 

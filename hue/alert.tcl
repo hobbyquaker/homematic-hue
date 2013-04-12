@@ -1,9 +1,12 @@
 #!/bin/tclsh
 
-set ip [lindex $argv 0]
-set lamp [lindex $argv 1]
+source config.tcl
+source config.tcl
 
-set url "http://$ip:80/api/newdeveloper/lights/$lamp/state"
+set lamp [lindex $argv 0]
+set alert [lindex $argv 1]
 
-exec echo "{\"alert\":\"select\"}" | curl -f -s -T - $url
+set url "http://$ip:80/api/$user/lights/$lamp/state"
+
+exec echo "{\"alert\":\"$alert\"}" | curl -f -s -T - $url
 
