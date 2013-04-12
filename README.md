@@ -1,4 +1,4 @@
-## homematic-hue
+## HomeMatic-Hue
 
 Control Philips Hue Lights with the HomeMatic CCU
 
