@@ -17,6 +17,7 @@ You have to setup your Hue Bridge IP and API Username in here
 Set lamp state with hue value
 
 #### Example:
+
      hue.tcl 3 true 255 0 30000 30
 
 #### Arguments
@@ -33,6 +34,7 @@ Set lamp state with hue value
 Set lamp state with color temperature value
 
 #### Example:
+
      ct.tcl 3 true 255 0 30000 30
 
 #### Arguments
@@ -50,6 +52,7 @@ Set lamp state with color temperature value
 Starts and stops alarm
 
 #### Example:
+
      alert.tcl 3 select
 
 * Number of the Lamp
