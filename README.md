@@ -4,9 +4,15 @@ Control Philips Hue Lights with the HomeMatic CCU
 
 Simple Wrapper Scripts around cURL calls to the Hue API
 
-Needs cURL
+Needs cURL (included in CUxD-Addon which is also needed to call the Scripts without system.Exec usage)
 
 ## Documentation
+
+### Install
+
+* Make a directory /usr/local/addons/hue on your Homematic CCU
+* Copy the Scripts into this directory
+
 
 ### config.tcl
 
@@ -20,7 +26,7 @@ How to Setup an API Username can be found here: http://developers.meethue.com/ge
 Set lamp state with hue value
 
 #### Example:
-     hue.tcl 3 true 255 0 30000 30
+     /usr/local/addons/hue/hue.tcl 3 true 255 0 30000 30
 
 #### Arguments
 
@@ -36,7 +42,7 @@ Set lamp state with hue value
 Set lamp state with color temperature value
 
 #### Example:
-     ct.tcl 3 true 255 0 30000 30
+     /usr/local/addons/hue/ct.tcl 3 true 255 0 30000 30
 
 #### Arguments
 
@@ -53,7 +59,7 @@ Set lamp state with color temperature value
 Starts and stops alarm
 
 #### Example:
-     alert.tcl 3 select
+     /usr/local/addons/hue/alert.tcl 3 select
 
 * Number of the Lamp
 * select/lselect/none - "select" does a single alarm, "lselect" does multiple alarms for max 30s, "none" cancels lselect
