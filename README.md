@@ -61,6 +61,8 @@ Starts and stops alarm
 #### Example:
      /usr/local/addons/hue/alert.tcl 3 select
 
+#### Arguments
+
 * Number of the Lamp
 * select/lselect/none - "select" does a single alarm, "lselect" does multiple alarms for max 30s, "none" cancels lselect
 
@@ -72,6 +74,7 @@ Switch a Group on/off
 #### Example:
     /usr/local/addons/hue/hue-groups.tcl 1 true
 
+#### Arguments
 
 * Group ID
 * Group on/off - true/false
