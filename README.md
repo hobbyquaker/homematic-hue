@@ -1,4 +1,4 @@
-## homematic-hue 0.3
+## homematic-hue 0.4
 
 Control Philips Hue Lights with the HomeMatic CCU
 
@@ -64,6 +64,17 @@ Starts and stops alarm
 * Number of the Lamp
 * select/lselect/none - "select" does a single alarm, "lselect" does multiple alarms for max 30s, "none" cancels lselect
 
+
+### group.tcl
+
+Switch a Group on/off
+
+#### Example:
+    /usr/local/addons/hue/hue-groups.tcl 1 true
+
+
+* Group ID
+* Group on/off - true/false
 
 ## License
 
