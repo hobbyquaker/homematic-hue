@@ -72,7 +72,7 @@ Starts and stops alarm
 Switch a Group on/off
 
 #### Example:
-    /usr/local/addons/hue/hue-groups.tcl 1 true
+    /usr/local/addons/hue/group.tcl 1 true
 
 #### Arguments
 
