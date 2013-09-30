@@ -31,9 +31,9 @@ Set lamp state with hue value
 #### Arguments
 
 * Number of the Lamp
-* true/false (on/off)
-* Brightness
-* Saturation
+* Lamp on/off - true/false
+* Brightness - 0-255
+* Saturation - 0-255
 * Hue - 0-65535 0=red, 25500=green, 46920=blue
 * Transition-Time in 1/10s
 
