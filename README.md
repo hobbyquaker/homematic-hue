@@ -90,7 +90,21 @@ Set lamp state
 #### Arguments
 
 * Number of the Lamp
-* Lamp on/off - true/false
+* Lamp on/off - true/false 
+
+
+### schedules.tcl
+
+Set lamp state
+
+#### Example:
+     /usr/local/addons/hue/schedules.tcl 123456789 enabled
+
+#### Arguments
+
+* ID of the schedule
+* enabled/disabled
+
 
 ## License
 
