@@ -95,7 +95,7 @@ Set lamp state
 
 ### schedules.tcl
 
-Set lamp state
+Enable/disable stored schedule.
 
 #### Example:
      /usr/local/addons/hue/schedules.tcl 123456789 enabled
