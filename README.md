@@ -79,6 +79,19 @@ Switch a Group on/off
 * Group ID
 * Group on/off - true/false
 
+
+### lights.tcl
+
+Set lamp state
+
+#### Example:
+     /usr/local/addons/hue/lights.tcl 1 true
+
+#### Arguments
+
+* Number of the Lamp
+* Lamp on/off - true/false
+
 ## License
 
 Copyright (c) 2013 hobbyquaker https://github.com/hobbyquaker
