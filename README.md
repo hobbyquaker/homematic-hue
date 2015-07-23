@@ -1,4 +1,4 @@
-## homematic-hue 0.4
+## homematic-hue 0.5
 
 Control Philips Hue Lights with the HomeMatic CCU
 
