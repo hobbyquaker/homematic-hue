@@ -1,4 +1,4 @@
-## homematic-hue 0.4
+## homematic-hue 0.5
 
 Control Philips Hue Lights with the HomeMatic CCU
 
@@ -78,6 +78,33 @@ Switch a Group on/off
 
 * Group ID
 * Group on/off - true/false
+
+
+### lights.tcl
+
+Set lamp state
+
+#### Example:
+     /usr/local/addons/hue/lights.tcl 1 true
+
+#### Arguments
+
+* Number of the Lamp
+* Lamp on/off - true/false 
+
+
+### schedules.tcl
+
+Enable/disable stored schedule.
+
+#### Example:
+     /usr/local/addons/hue/schedules.tcl 123456789 enabled
+
+#### Arguments
+
+* ID of the schedule
+* enabled/disabled
+
 
 ## License
 
