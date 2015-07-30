@@ -18,7 +18,7 @@ Needs cURL (included in CUxD-Addon which is also needed to call the Scripts with
 
 You have to setup your Hue Bridge IP and API Username here.
 
-How to Setup an API Username can be found here: http://developers.meethue.com/gettingstarted.html
+How to Setup an API Username can be found here: http://www.developers.meethue.com/documentation/getting-started
 
 
 ### hue.tcl
