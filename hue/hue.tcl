@@ -35,4 +35,8 @@ if { $argc >= 6 } {
 
 set url "http://$ip:80/api/$user/lights/$lamp/state"
 
-exec echo "{\"on\":$state,\"sat\":$sat,\"bri\":$bri,\"hue\":$hue,\"transitiontime\":$tt}" | /usr/local/addons/cuxd/curl -f -s -T - $url
+if { $state == "true" } then {
+ exec echo "{\"on\":$state,\"sat\":$sat,\"bri\":$bri,\"hue\":$hue,\"transitiontime\":$tt}" | /usr/local/addons/cuxd/curl -f -s -T - $url 
+} else {
+ exec echo "{\"on\":$state}" | /usr/local/addons/cuxd/curl -f -s -T - $url 
+}

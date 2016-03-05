@@ -15,4 +15,4 @@ set status [lindex $argv 1]
 
 set url "http://$ip:80/api/$user/schedules/$schedule"
 
-exec echo "{\"status\":\"$status\"}" | /usr/local/addons/cuxd/curl -f -s -T - $u
+exec echo "{\"status\":\"$status\"}" | /usr/local/addons/cuxd/curl -f -s -T - $url
