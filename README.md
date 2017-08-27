@@ -1,17 +1,17 @@
 ## homematic-hue 0.5
 
-**DEPRECATED**
-I do not develop this project anymore, pls take a look at
-* https://github.com/j-a-n/homematic-addon-hue
-* https://github.com/thkl/Homematic-Virtual-Interface  
-
-as these projects are still under maintainance.
-
 > Control Philips Hue Lights with the HomeMatic CCU
 
 Simple Wrapper Scripts around cURL calls to the Hue API
 
 Needs cURL (included in CUxD-Addon which is also needed to call the Scripts without system.Exec usage)
+
+
+**DEPRECATED**
+I do not develop this project anymore, pls take a look at
+* https://github.com/j-a-n/homematic-addon-hue
+* https://github.com/thkl/Homematic-Virtual-Interface  
+
 
 ## Documentation
 
