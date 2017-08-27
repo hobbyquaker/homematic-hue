@@ -3,7 +3,7 @@
 **DEPRECATED**
 I do not develop this project anymore, pls take a look at
 * https://github.com/j-a-n/homematic-addon-hue
-* https://github.com/thkl/Homematic-Virtual-Interface
+* https://github.com/thkl/Homematic-Virtual-Interface     
 as these projects are still under maintainance.
 
 > Control Philips Hue Lights with the HomeMatic CCU
