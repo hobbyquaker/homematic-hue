@@ -1,6 +1,12 @@
 ## homematic-hue 0.5
 
-Control Philips Hue Lights with the HomeMatic CCU
+**DEPRECATED**
+I do not develop this project anymore, pls take a look at
+* https://github.com/j-a-n/homematic-addon-hue
+* https://github.com/thkl/Homematic-Virtual-Interface
+as these projects are still under maintainance.
+
+> Control Philips Hue Lights with the HomeMatic CCU
 
 Simple Wrapper Scripts around cURL calls to the Hue API
 
